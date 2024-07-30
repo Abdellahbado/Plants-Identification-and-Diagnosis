@@ -28,7 +28,7 @@ def search_videos_plant(plant_name, action):
 
 def search_youtube_videos(query, max_results=1):
     youtube = build(
-        "youtube", "v3", developerKey="AIzaSyD2D1IyTpBJvXgUGGB7632mzBc9oE-fU5Q"
+        "youtube", "v3", developerKey="GOOGLE_API_KEY"
     )
     search_response = (
         youtube.search()
